@@ -13,7 +13,7 @@ let user_wins = 0;
 let computer_wins = 0;
 userWins.innerHTML = "User Wins: " + user_wins;
 computerWins.innerHTML = "Computer Wins: " + computer_wins;
-const options = ["image/rock.png","image/paper.png","image/scissors.png"];
+const options = ["images/rock.png","images/paper.png","images/scissors.png"];
 
 
 rock.addEventListener("click",() => {
